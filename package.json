@@ -1,0 +1,15 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "data extracts",
+  "main": "product.js",
+  "scripts": {
+    "start": " node -r dotenv/config ./product.js"
+  },
+  "author": "Jyoti",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0"
+  }
+}
